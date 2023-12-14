@@ -10,7 +10,7 @@ const About = () => {
     <section id="about" className="py-10 text-white">
       <div
         className="text-center mt-8"
-        data-aos="zoom-in-right"
+        data-aos="zoom-in"
         data-aos-easing="linear"
         data-aos-duration="1000"
       >
