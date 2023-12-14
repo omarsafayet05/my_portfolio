@@ -11,6 +11,9 @@ const Hero = () => {
     <section
       id="home"
       className="min-h-screen flex py-2 md:flex-row flex-col items-center"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
     >
       <div className="flex-1 flex items-center justify-center h-full">
         <div className="lg:w-80 w-72 md:mt-0 mt-14 h-full  sm:w-11/12 max-w-sm   myself ">

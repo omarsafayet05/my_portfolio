@@ -14,7 +14,12 @@ const Skills = () => {
   ];
   return (
     <section id="skills" className="relative py-10 bg-gray-800 z-[-999]">
-      <div className="mt-8 text-gray-100 text-center">
+      <div
+        className="mt-8 text-gray-100 text-center"
+        data-aos="zoom-in-left"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         <h3 className="text-4xl font-semibold">
           My <span className="text-yellow-500">Skills</span>
         </h3>

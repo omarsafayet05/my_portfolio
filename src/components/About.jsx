@@ -8,7 +8,12 @@ const About = () => {
   ];
   return (
     <section id="about" className="py-10 text-white">
-      <div className="text-center mt-8">
+      <div
+        className="text-center mt-8"
+        data-aos="zoom-in-right"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         <h3 className="text-4xl font-semibold">
           About <span className="text-cyan-600">Me</span>
         </h3>
@@ -36,7 +41,7 @@ const About = () => {
             </div>
             <br />
             <br />
-            <a href="src\assets\Biodata-1.pdf">
+            <a href="https://docs.google.com/document/d/1Fh05wgoZkdPUM_0W7n08FtfHi3cNxpVK6sc02wvWsSg/edit">
               <button className="btn-secondary">Download CV</button>
             </a>
           </div>

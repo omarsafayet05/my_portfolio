@@ -99,6 +99,9 @@ const Project = () => {
               src={Project_Person}
               alt=""
               className="w-full object-cover   drop-shadow-2xl"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="500"
             />
           </div>
         </div>

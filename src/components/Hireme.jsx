@@ -1,7 +1,13 @@
 import me from "../assets/me.png";
 const Hireme = () => {
   return (
-    <section id="hireme" className="py-10 px-3 text-white">
+    <section
+      id="hireme"
+      className="py-10 px-3 text-white"
+      data-aos="flip-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
           Hire <span className="text-cyan-600">Me</span>
