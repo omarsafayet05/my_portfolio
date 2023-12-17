@@ -11,12 +11,14 @@ const Hero = () => {
     <section
       id="home"
       className="min-h-screen flex py-2 md:flex-row flex-col items-center"
-      data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="850"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <div className="lg:w-80 w-72 md:mt-0 mt-14 h-full  sm:w-11/12 max-w-sm   myself ">
+        <div
+          className="lg:w-80 w-72 md:mt-0 mt-14 h-full  sm:w-11/12 max-w-sm   myself "
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <img
             src={me}
             alt=""
@@ -25,7 +27,12 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="flex-1">
+      <div
+        className="flex-1"
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-yellow-500">
