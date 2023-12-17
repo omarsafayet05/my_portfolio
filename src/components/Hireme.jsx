@@ -4,9 +4,9 @@ const Hireme = () => {
     <section
       id="hireme"
       className="py-10 px-3 text-white"
-      data-aos="flip-down"
+      data-aos="fade-down"
       data-aos-easing="linear"
-      data-aos-duration="1000"
+      data-aos-duration="850"
     >
       <div className="text-center">
         <h3 className="text-4xl font-semibold">

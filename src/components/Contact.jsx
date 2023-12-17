@@ -33,7 +33,7 @@ const Contact = () => {
       className="py-10 px-3 text-white"
       data-aos="fade-up"
       data-aos-easing="linear"
-      data-aos-duration="800"
+      data-aos-duration="850"
       //data-aos-anchor-placement="center-center"
     >
       <div className="text-center mt-8">
